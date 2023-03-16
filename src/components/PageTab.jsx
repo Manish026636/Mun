@@ -21,7 +21,7 @@ const Tabs = () => {
               className={`bg-white rounded-t-lg inline-block py-2 px-4 font-semibold ${activeTab === 0 ? 'text-blue-700' : 'text-gray-500 hover:text-gray-800'}`}
               href="#"
             >
-              Tab 1
+             GSL
             </a>
           </li>
           <li
@@ -32,7 +32,7 @@ const Tabs = () => {
               className={`bg-white rounded-t-lg inline-block py-2 px-4 font-semibold ${activeTab === 1 ? 'text-blue-700' : 'text-gray-500 hover:text-gray-800'}`}
               href="#"
             >
-              Tab 2
+           MD
             </a>
           </li>
           <li
@@ -43,7 +43,7 @@ const Tabs = () => {
               className={`bg-white rounded-t-lg inline-block py-2 px-4 font-semibold ${activeTab === 2 ? 'text-blue-700' : 'text-gray-500 hover:text-gray-800'}`}
               href="#"
             >
-              Tab 3
+              UNMD
             </a>
           </li>
         </ul>

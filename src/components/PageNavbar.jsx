@@ -25,7 +25,7 @@ export default function PageNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex font-bold items-center">
           Pages
         </a>
       </Typography>
@@ -35,7 +35,7 @@ export default function PageNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex font-bold items-center">
           Account
         </a>
       </Typography>
@@ -45,7 +45,7 @@ export default function PageNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex font-bold items-center">
           Blocks
         </a>
       </Typography>
@@ -55,7 +55,7 @@ export default function PageNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex font-bold items-center">
           Docs
         </a>
       </Typography>
@@ -69,9 +69,9 @@ export default function PageNavbar() {
           as="a"
           href="#"
           variant="small"
-          className="mr-4 cursor-pointer py-1.5 font-normal"
+          className="mr-4 font-bold cursor-pointer py-1.5 "
         >
-          <span>Material Tailwind</span>
+          <span>MUNity</span>
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">
