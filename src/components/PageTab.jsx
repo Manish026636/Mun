@@ -10,7 +10,7 @@ const Tabs = () => {
 
   return (
     <>
-    <div className=" container mx-auto mt-20 flex flex-col md:flex-row">
+    <div className=" container  flex mt-10 justify-center items-center md:justify-start md:mx-auto flex-col md:flex-row">
       <div className="md:w-1/4">
         <ul className="flex border-b">
           <li
