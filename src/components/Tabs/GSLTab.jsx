@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LargeTab = () => {
+const GSLTab = () => {
   return (
     <>
       <div className='flex flex-col md:flex-row gap-4'>
@@ -11,7 +11,7 @@ const LargeTab = () => {
 
           <div className=" mt-7 h-[50vh] hide-scrollbar  rounded-b-lg bg-white overflow-y-auto">
             <div className=' p-4 '>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto  text-xs font-semibold text-center text-gray-500">
@@ -26,7 +26,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -41,7 +41,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -56,7 +56,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -71,7 +71,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -86,7 +86,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -101,7 +101,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -116,7 +116,7 @@ const LargeTab = () => {
                 </table>
 
               </div>
-              <div className='bg-[#EAF1FD] my-2 h-16 rounded-lg '>
+              <div className='bg-[#EAF1FD] my-2 h-16 rounded-xl '>
                 <table className="w-full">
                   <thead>
                     <tr className="w-[100vw] md:overflow-x-auto md:w-fit text-xs font-semibold tracking-wide text-center text-gray-500">
@@ -184,4 +184,4 @@ const LargeTab = () => {
   )
 }
 
-export default LargeTab
+export default GSLTab;

@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import LargeTab from './Tabs/LargeTab';
+import GSLTab from './Tabs/GSLTab';
+import UNMDTab from './Tabs/UNMDTab';
+
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -55,19 +57,17 @@ const Tabs = () => {
         <div className="p-4">
           {activeTab === 0 && (
             <div>
-              <LargeTab/>
+              <GSLTab/>
             </div>
           )}
           {activeTab === 1 && (
             <div>
-              <p>Content of Tab 2</p>
-              <p>Add new components here</p>
+              // TO BE PLACED
             </div>
           )}
           {activeTab === 2 && (
             <div>
-              <p>Content of Tab 3</p>
-              <p>Add new components here</p>
+              <UNMDTab/>
             </div>
           )}
         </div>
