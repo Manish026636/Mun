@@ -149,10 +149,12 @@ const LargeTab = () => {
                 <img className=' w-[10vh] md:w-[10vh] rounded mx-auto' src="france.png" alt="" />
                 <h2 className='mt-2'>France</h2>
               </div>
-              <div class=" text-center font-bold text-lg p-4 mt-2">05 : 80</div>
+              <div class="bg-blue-100 rounded-2xl text-center font-bold text-lg ">
+                <h1 className='mt-8'>00 : 00</h1>
+              </div>
             </div>
             <div class="mt-4 grid grid-cols-2 sm:grid-cols-2 gap-4 ">
-              <textarea class="hide-scrollbar overflow-y-auto  form-textarea rounded-xl h-20 w-full  border-2 border-gray-400 hover:border-blue-500 "placeholder="Notes..."></textarea>
+              <textarea class="hide-scrollbar overflow-y-auto  form-textarea rounded-xl h-20 w-full  border-2 border-gray-400 hover:border-blue-500 " placeholder="Notes..."></textarea>
               <div className="rating mt-6">
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-yellow-600" />
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-yellow-600" checked />
@@ -162,11 +164,13 @@ const LargeTab = () => {
               </div>
             </div>
             <div class="mt-4 grid grid-cols-1 sm:grid-cols-1 ">
-              <textarea class="hide-scrollbar overflow-y-auto  form-textarea rounded-xl h-20 w-full  border-2 border-gray-400 hover:border-blue-500 "placeholder="Comments...."></textarea>
-              
+              <textarea class="hide-scrollbar overflow-y-auto  form-textarea rounded-xl h-20 w-full  border-2 border-gray-400 hover:border-blue-500 " placeholder="Comments...."></textarea>
+
             </div>
+            <div className='mt-8 text-center'>
+              <button class="bg-gradient-to-r from-blue-300 to-indigo-400 text-white font-bold py-2 px-4 rounded">Submit</button>
 
-
+            </div>
           </div>
 
         </div>
