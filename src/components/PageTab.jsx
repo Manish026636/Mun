@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CPView from './Chairperson/CPView';
 import GSLTab from './Tabs/GSLTab';
 import UNMDTab from './Tabs/UNMDTab';
 
@@ -62,7 +63,7 @@ const Tabs = () => {
           )}
           {activeTab === 1 && (
             <div>
-              // TO BE PLACED
+              <CPView/>
             </div>
           )}
           {activeTab === 2 && (
